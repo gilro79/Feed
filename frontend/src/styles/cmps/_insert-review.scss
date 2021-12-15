@@ -1,0 +1,25 @@
+.insert-review {
+    background-color: #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    .email {
+        margin-bottom: 10px;
+    }
+    .message {
+        margin-bottom: 10px;
+        .el-textarea__inner {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    .submit-btn {
+        padding: 5px;
+        background-color: rgb(203, 203, 245);
+        border: none;
+        font-size: rem(18px);
+        border-radius: 10px;
+        &:hover {
+            background-color: rgb(154, 154, 233);
+            cursor: pointer;
+        }
+    }
+}
